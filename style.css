@@ -1,0 +1,97 @@
+@font-face { font-family: "Outfit";
+    src: url( https://fonts.google.com/specimen/Outfit);
+     }
+
+
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+ /* VARIABLES*/ 
+
+
+:root {
+    /* COLORS */
+--WHITE: hsl(0, 0%, 100%);
+--LIGHT-GRAY: hsl(212, 45%, 89%);
+--GRAYISH-BLUE: rgb(213, 225, 239);
+--DARK-BLUE: hsl(218, 44%, 22%);
+
+
+/* FONTS */
+--PFont-size: 15px;
+
+
+} 
+
+/* UTILITY-CLASSES */
+
+img {
+            
+    width:100%;
+    height: auto;
+}
+
+/* HTML */
+
+html {
+    background-color: var(--GRAYISH-BLUE);
+    width: 100vw;
+    min-height: 100vh;
+}
+   
+
+/* IMAGES */
+
+        
+
+
+
+/* BODY */
+
+body {
+    padding: 12px;
+    border-radius: 15px;
+    margin: 100px auto;
+    width: 20%;
+    height: auto;
+    background-color: var(--WHITE);
+}
+
+
+
+/* MAIN */
+main {
+    padding: 12px;
+}
+
+/* FIGURE */
+
+header {
+    border-radius: 15px;
+   
+}
+
+/* PARAGRAPHS */
+
+p {
+    font-size: 1em;
+    padding: 12px 0  0;
+   opacity: 0.5;  
+   
+   
+}          
+
+/* Hs */
+
+h1 {
+    font-size: 1em;
+    
+    
+    
+}
